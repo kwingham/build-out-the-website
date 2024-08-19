@@ -1,0 +1,11 @@
+🐿️ As a user, I want the navigation menu to highlight the current page or section, so that I can easily identify where I am on the website. ✅
+
+🐿️ As a user, I want the website’s navigation bar to include external links alongside internal links, so that I can easily access related resources and websites without leaving the main site. ✅
+
+🐿️ As a user, I want the website to have a search functionality, so that I can quickly find specific information or content without navigating through multiple pages. ❌
+
+🐿️ As a user, I want the website to have a dark mode option, so that I can switch to a comfortable viewing experience in low-light environments. ❌
+
+------------------------
+✅ Mean User Story met.
+❌ Usery Story not met as I think I need to use Javascript.

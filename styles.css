@@ -1,0 +1,144 @@
+/* Base Styles */
+body {
+  font-family: "Trebuchet MS", "Times New Roman";
+  background-color: #c6efd6; /* Light green background color */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  background-color: #004d40;
+  padding: 1em 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a.active,
+nav a:hover {
+  color: #00796b;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  margin-left: 2em;
+}
+
+main {
+  padding: 2em 1em;
+  max-width: 58%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.image-container img {
+  width: calc(100% + 5cm);
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.image-container2 {
+  position: relative;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.image-container2 img {
+  width: calc(32% + 5cm);
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container2:hover img {
+  transform: scale(1.05);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 1.5em;
+  max-width: 66%;
+  text-align: left;
+  line-height: 1.6;
+  background-color: transparent;
+}
+
+.overlay-text strong {
+  color: yellow;
+}
+
+section {
+  margin: 2em 0;
+  padding: 0 1em;
+  line-height: 1.6;
+}
+/* Removes all margins and padding around h2 & p and adjusts the font hight & the adusts the line hight to reduce spacing */
+#text-section h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 1.2;
+}
+#text-section p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1.5em 1em;
+  margin-top: 2em;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #80cbc4;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #b2dfdb;
+}
